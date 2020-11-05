@@ -43,8 +43,8 @@ def knn(train, test, k=5):
 
 
 #Init Camera
-url = "https://192.168.1.2:8080/"
-cap = cv2.VideoCapture(url+"/video")
+
+cap = cv2.VideoCapture(0)
 
 # Face Detection
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
